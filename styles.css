@@ -1,0 +1,102 @@
+body {
+    font-family: Firefox 1, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7a9cec;
+}
+
+header {
+    background-color: #3c6dcc;
+    color: #2c348c (255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #2c348c;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #5e5fa3;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #c6ccb8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3e3262;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1b793a;
+}
+
+table {
+    width: 100%;
+    background-color: #98a0c1;
+    color: rgb(24, 23, 23);
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #dddddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+tfoot {
+    background-color: #ffffff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
